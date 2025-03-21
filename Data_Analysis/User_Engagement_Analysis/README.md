@@ -58,15 +58,27 @@ The primary objective is to assess the effect of career tracks, practice exams, 
 ```bash
 User_Engagement_Analysis/
 │
-├── data/                            # All CSV data files
+├── data/                            # All data files (CSV and database)
+│   ├── certificates_issued_minutes_watched.csv
+│   ├── q2_2021_free_plan.csv
+│   ├── q2_2021_paid_subscribers.csv
+│   ├── q2_2022_free_plan.csv
+│   ├── q2_2022_paid_subscribers.csv
+│   ├── minutes_watched_2021_paid_0_no_outliers.csv
+│   ├── minutes_watched_2021_paid_1_no_outliers.csv
+│   ├── minutes_watched_2022_paid_0_no_outliers.csv
+│   ├── minutes_watched_2022_paid_1_no_outliers.csv
+│   ├── data_scientist_project.db     # Database file
 │
-├── sql/
-│   ├── purchases_info_view.sql     # View to combine and refine purchase data
-│   └── course_watch_time_agg.sql   # SQL for watch time aggregation
+├── sql/                             # SQL scripts for data transformation
+│   ├── certificates_issued_minutes_watched.sql
+│   ├── q2_2021_free_plan.sql
+│   ├── q2_2021_paid_subscribers.sql
+│   ├── q2_2022_free_plan.sql
+│   ├── q2_2022_paid_subscribers.sql
+│   ├── view.sql                      # SQL view for data aggregation
 │
-├── notebooks/
-│   └── student_engagement_analysis.ipynb   # Full EDA and modeling in Python
+├── notebooks/                        # Jupyter notebooks for analysis
+│   ├── EDA-ML.ipynb                   # Exploratory Data Analysis & ML
 │
-├── visuals/                        # Graphs and plots (optional)
-│
-└── README.md
+└── README.md                         # Project documentation
