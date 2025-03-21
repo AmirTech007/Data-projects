@@ -55,4 +55,18 @@ The primary objective is to assess the effect of career tracks, practice exams, 
 
 ## 📁 Project Structure
 
-User_Engagement_Analysis/ │ ├── data/ # All CSV data files │ ├── sql/ │ ├── purchases_info_view.sql # View to combine and refine purchase data │ └── course_watch_time_agg.sql # SQL for watch time aggregation │ ├── notebooks/ │ └── student_engagement_analysis.ipynb # Full EDA and modeling in Python │ ├── visuals/ # Graphs and plots (optional) │ └── README.md
+```bash
+User_Engagement_Analysis/
+│
+├── data/                            # All CSV data files
+│
+├── sql/
+│   ├── purchases_info_view.sql     # View to combine and refine purchase data
+│   └── course_watch_time_agg.sql   # SQL for watch time aggregation
+│
+├── notebooks/
+│   └── student_engagement_analysis.ipynb   # Full EDA and modeling in Python
+│
+├── visuals/                        # Graphs and plots (optional)
+│
+└── README.md
