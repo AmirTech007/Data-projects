@@ -1,7 +1,7 @@
 # 🎓 Student Engagement Analysis Project
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![SQL](https://img.shields.io/badge/SQL-PostgreSQL-informational)
+![SQL](https://img.shields.io/badge/SQL-MySQL-informational)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## 📌 Project Overview
