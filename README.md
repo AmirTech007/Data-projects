@@ -9,8 +9,8 @@ Currently, it contains Data Analytics projects, focusing on SQL, Python, busines
 # 📂 Data Analysis Projects
 
 ## 🔗 Project List
-1. [🚀 User Engagement Analysis](User_Engagement_Analysis/)
-2. [🛒 Checkout Flow Optimization](Checkout_Flow_Optimization/)
-3. [🍼 Baby Care Product Analysis](Baby_Care_Product_Analysis/)
-4. [👣 User Journey Analysis](User_Journey/)
+1. [🚀 User Engagement Analysis](Data_Analysis\User_Engagement_Analysis)
+2. [🛒 Checkout Flow Optimization](Data_Analysis\Checkout_Flow_Optimization)
+3. [🍼 Baby Care Product Analysis](Data_Analysis\Baby_Care_Product_Analysis)
+4. [👣 User Journey Analysis](Data_Analysis\User_Journey)
 
